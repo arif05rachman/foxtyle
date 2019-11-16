@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.loginPic {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(43, 43, 43, 0.4);
+}
+.loginDiv {
+  position: relative;
+  width: 25%;
+  height: 100%;
+  float: right;
+  right: -15px;
+  background-color: rgba(240, 242, 242, 0.8);
+  padding: 0px 45px;
+  border-radius: 5%;
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.75);
+}
+.loginDiv h1 {
+  position: relative;
+  color: #f52f57;
+  font-size: 50px;
+  top: 16%;
+  left: 20px;
+  font-family: "Emblema One", cursive;
+}
+.username,
+.pw {
+  position: absolute;
+  width: 300px;
+  background: transparent;
+  top: 50%;
+  border: none;
+  border-bottom: 2px solid #f52f57;
+  color: black;
+  font-size: 16px;
+  margin-left: 30px;
+  padding: 5px;
+}
+.pw {
+  top: 42%;
+}
+.reset {
+  position: relative;
+  top: 85px;
+  left: -20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.reset h4 {
+  position: relative;
+  bottom: 50px;
+  color: rgb(111, 111, 112);
+}
+
+.loginDiv input {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.loginDiv input[type="text"] {
+  width: 75%;
+  position: relative;
+  top: 30px;
+  left: -23px;
+  justify-items: center;
+  background: transparent;
+  border: 1px solid black;
+  outline: none;
+  height: 28px;
+}
+.loginDiv input[type="submit"] {
+  cursor: pointer;
+  position: relative;
+  top: 25px;
+  left: 52px;
+  border: none;
+  outline: none;
+  height: 30px;
+  background: #f52f57;
+  color: rgba(240, 242, 242, 0.8);
+  font-size: 18px;
+  border: 1px solid black;
+}
+.or {
+  position: relative;
+  top: 50px;
+  left: 51px;
+  font-size: 20px;
+  color: rgb(111, 111, 112);
+}
+.newAcc {
+  position: relative;
+  top: 70px;
+  left: 53px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+.newAcc a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+.newAcc a:hover {
+  color: #f52f57;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.garis hr {
+  position: relative;
+  top: 160px;
+  left: -10px;
+}
+.relogin {
+  position: relative;
+  top: 170px;
+  left: 75px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+.relogin a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+.relogin a:hover {
+  color: #f52f57;
+  text-decoration: none;
+  transition: 0.5s;
+}

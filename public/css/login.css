@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.loginPic {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(43, 43, 43, 0.4);
+}
+.loginDiv {
+  position: relative;
+  width: 25%;
+  height: 100%;
+  float: right;
+  right: -15px;
+  background-color: rgba(43, 43, 43, 0.9);
+  padding: 0px 45px;
+  border-radius: 5%;
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.75);
+}
+.loginDiv h1 {
+  position: relative;
+  color: #F52F57;
+  font-size: 50px;
+  top: 16%;
+  font-family: "Emblema One", cursive;
+}
+.username,
+.pw {
+  position: absolute;
+  width: 300px;
+  background: transparent;
+  top: 32%;
+  border: none;
+  border-bottom: 2px solid #9e2127;
+  color: #fff;
+  font-size: 16px;
+  margin-left: 30px;
+  padding: 5px;
+}
+.pw {
+  top: 42%;
+}
+.sb {
+  font-family: "Eczar", serif;
+}
+.loginDiv input {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.loginDiv input[type="text"],
+input[type="password"] {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  height: 30px;
+  left: 30px;
+}
+.loginDiv input[type="submit"] {
+  position: absolute;
+  top: 21em;
+  left: 65px;
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #F52F57;
+  color: #fff;
+  font-size: 18px;
+  border: 1px solid #fff;
+}
+.loginDiv input[type="submit"]:hover {
+  cursor: pointer;
+  background: #fff;
+  color: black;
+  transition: 0.5s;
+  border: 1px solid black;
+}
+.add a {
+  position: relative;
+  top: 350px;
+  margin: 20px;
+  text-decoration: none;
+  margin-bottom: 50px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 20px;
+  color: #F52F57;
+}
+
+.add a:hover {
+  color: #fff;
+  transition: 0.5s;
+}

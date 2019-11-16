@@ -1,0 +1,167 @@
+body {
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+	background-color: #e5e5e5;
+}
+nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 70px;
+	background-color: #363636;
+	z-index: 9;
+}
+nav ul {
+	padding: 10px 0px;
+	margin: 0;
+}
+nav ul li {
+	list-style: none;
+	float: left;
+	padding: 5px 15px;
+}
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 15px;
+}
+.link {
+	position: relative;
+	width: 100%;
+	height: 70px;
+	padding: 0px 5%;
+}
+.logo {
+	font-family: 'Emblema One', cursive;
+	font-size: 30px;
+}
+.right {
+	float: right;
+	padding-right: 10%;
+	margin-top: 8px;
+}
+.login {
+	border: 2px solid white;
+	border-radius: 5px;
+}
+.kategori {
+	position: relative;
+	width: 100%;
+	top: 70px;
+	height: 40px;
+	background-color: #2d2d2d;
+	margin: 0;
+	z-index: 8;
+	overflow-y: scroll;
+	-webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1);
+	box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1);
+}
+
+.kategori ul {
+	padding: 2px 0px;
+	margin: 0;
+}
+.kategori ul li {
+	color: black;
+	float: left;
+	list-style: none;
+	padding: 10px 15px;
+}
+.kategori ul li a {
+	color: white;
+	text-decoration: none;
+	font-family: 'Muli', sans-serif;
+	font-size: 13px;
+}
+
+main {
+	position: relative;
+	width: 100%;
+	height: 200vh;
+}
+
+
+footer {
+	position: relative;
+	width: 100%;
+	height: 250px;
+	background-image: linear-gradient(#363636, #0a0a0a);
+	padding: 10px 5%;
+	overflow-y: hidden;
+}
+footer h1 {
+	font-family: 'Emblema One', cursive;
+	font-size: 30px;
+	color: white;
+}
+footer img {
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+
+}
+footer h5 {
+	color: #b5b5b5;
+	font-family: 'alegreya Sans', sans-serif;
+	font-size: 20px;
+}
+footer h6 {
+	font-family: 'Muli', sans-serif;
+	color: #919191;
+	font-size: 14px;
+}
+.contact {
+	position: relative;
+	width: 33%;
+	height: 100%;
+	float: left;
+}
+.contact-list {
+	padding-right: 20px;
+	margin-bottom: -10px;
+}
+.line {
+	position: absolute;
+	width: 1px;
+	height: 80%;
+	background-color: white;
+	float: right;
+	right: 0;
+	top: 20%;
+}
+
+.about {
+	position: relative;
+	width: 64%;
+	float: right;
+	height: 100%;
+	padding: 0px 15px;
+	margin-top: 10px;
+}
+.about h5 {
+	margin-top: 45px;
+
+}
+.about p {
+	margin-top: -25px;
+	color: #919191;
+	padding-right: 200px;
+	font-family: 'Muli', sans-serif;
+}
+.cr {
+	position: absolute;
+	top: 100%;
+	float: right;
+	right: 10%;
+	transform: translateY(-80%);
+}
+.cr h6 {
+	font-family: sans-serif;
+	margin-top: 40px;
+	font-size: 12px;
+	color: white;
+}
